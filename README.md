@@ -1,2 +1,2 @@
 # Kattis_Solutions
-Answers for ![https://open.kattis.com](Kattis) questions
+Answers for ![Kattis](https://open.kattis.com) questions
