@@ -1,5 +1,5 @@
-a=input()
-if a=="OCT 31" or a=="DEC 25":
+a = input()
+if a == "OCT 31" or a == "DEC 25":
     print("yup")
 else:
     print("nope")

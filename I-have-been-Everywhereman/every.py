@@ -1,9 +1,9 @@
-a=int(input())
+a = int(input())
 for i in range(a):
-    b=int(input())
-    c=[]
+    b = int(input())
+    c = []
     for i in range(b):
-        d=input()
+        d = input()
         if d not in c:
             c.append(d)
     print(len(c))

@@ -1,1 +1,1 @@
-print('go' if len(input()) >= len(input()) else 'no')
+print("go" if len(input()) >= len(input()) else "no")

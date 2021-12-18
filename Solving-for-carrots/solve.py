@@ -1,5 +1,5 @@
-x=input()
-y=x.split()
+x = input()
+y = x.split()
 for i in range(int(y[0])):
-    z=input()
+    z = input()
 print(y[1])

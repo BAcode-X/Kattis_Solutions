@@ -6,11 +6,13 @@ def nToB(n, b):
         digits.append(int(n % b))
         n //= b
     return digits[::-1]
-a=int(input())
+
+
+a = int(input())
 for i in range(a):
-    b,c,d=[int(_)for _ in input().split()]
-    e=nToB(d,c)
-    cnt=0
+    b, c, d = [int(_) for _ in input().split()]
+    e = nToB(d, c)
+    cnt = 0
     for j in e:
-        cnt+=j**2
-    print((i+1),cnt)
+        cnt += j ** 2
+    print((i + 1), cnt)
